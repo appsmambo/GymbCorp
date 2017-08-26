@@ -26,7 +26,7 @@
                   Asesoría y Servicio<br>Tributario
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/asesoria-y-servicio-tributario')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>
@@ -38,7 +38,7 @@
                   Asesoría y Servicio<br>Financiero
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/asesoria-y-servicio-financiero')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>
@@ -50,7 +50,7 @@
                   Asesoría y Servicio<br>Contable
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/asesoria-y-servicio-contable')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>
@@ -62,7 +62,7 @@
                   Administración de<br>Recursos Humanos
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/administracion-de-recursos-humanos')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>
@@ -76,7 +76,7 @@
                   Toma de<br>Inventarios
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/toma-de-inventarios')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>
@@ -88,7 +88,7 @@
                   Consultoría<br>Empresarial
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/consultoria-empresarial')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>
@@ -100,7 +100,7 @@
                   Seguridad y Salud<br>en el Trabajo
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/seguridad-y-salud-en-el-trabajo')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>
@@ -112,7 +112,7 @@
                   Proyectos<br>Factibilidad
                   <br>
                   <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
+                  <a href="{{url('servicios/proyectos-factibilidad')}}" class="leer-mas">
                     Leer más
                   </a>
                 </p>

@@ -34,7 +34,7 @@
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
                 <div class="col-md-5">
-                  <a href="#" class="logo">
+                  <a href="{{url('/')}}" class="logo">
                     <img src="{{url('img/logo.png')}}" alt="" class="img-responsive">
                     Asesores empresariales
                   </a>
@@ -49,17 +49,17 @@
                   </p>
                   <ul class="menu">
                     <li>
-                      <a href="#">
+                      <a href="{{url('nosotros')}}">
                         NOSOTROS
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="{{url('servicios')}}">
                         SERVICIOS
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="{{url('contacto')}}">
                         CONTACTO
                       </a>
                     </li>
@@ -78,7 +78,7 @@
               <div class="row">
                 <div class="col-md-3">
                   <p>
-                    <a href="#" class="logo">
+                    <a href="{{url('')}}" class="logo">
                       <img src="{{url('img/logo-footer.png')}}" alt="" class="img-responsive">
                       Asesores empresariales
                     </a>
@@ -91,9 +91,9 @@
                   </p>
                 </div>
                 <div class="col-md-3">
-                  <h3>
+                  <h4>
                     CONTÁCTANOS
-                  </h3>
+                  </h4>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting.
                   </p>
@@ -108,9 +108,9 @@
                   </form>
                 </div>
                 <div class="col-md-3">
-                  <h3>
+                  <h4>
                     ÚLTIMAS NOTICAS
-                  </h3>
+                  </h4>
                   <div class="row">
                     <div class="col-xs-5">
                       <img src="http://lorempixel.com/120/120/people/" class="img-responsive">
@@ -141,9 +141,9 @@
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <h3>
+                  <h4>
                     INFORMACIÓN
-                  </h3>
+                  </h4>
                   <div class="row">
                     <div class="col-xs-4">
                       Dirección:

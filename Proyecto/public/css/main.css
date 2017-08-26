@@ -99,6 +99,15 @@ h2 small {
 	font-weight:400;
 }
 h3 {
+	background:#394955;
+	border-bottom:5px solid #f1f1f1;
+	color:#fff;
+	font-size:30px;
+	line-height:94px;
+	margin:0;
+	padding:0 50px
+}
+h4 {
 	font-size:22px;
 	margin-bottom:32px;
 	margin-top:10px

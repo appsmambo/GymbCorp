@@ -20,6 +20,6 @@ class HomeController extends BaseController
     }
     public function getServicios()
     {
-    	return view('servicios');
+    	return view('servicios.index');
     }
 }
