@@ -1,9 +1,17 @@
 <?php
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('home');
 });
+*/
 
+Route::get('/', array('as' => 'inicio', 'uses' => 'HomeController@getInicio'));
+Route::get('/servicios', function() {
+	//array('as' => 'servicios', 'uses' => 'HomeController@getServicios'));
+	echo 'asd';
+});
+
+/*
 Route::get('servicios', function () {
     return view('servicios');
 });
@@ -39,3 +47,4 @@ Route::get('/servicios/seguridad-y-salud-en-el-trabajo', function () {
 Route::get('/servicios/proyectos-factibilidad', function () {
     return view('servicios/proyectos-factibilidad');
 });
+*/
