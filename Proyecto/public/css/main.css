@@ -160,6 +160,9 @@ p.servicio span {
 	line-height:16px;
 	margin:10px 0 20px
 }
+p.servicio img {
+	max-width:100px
+}
 .leer-mas {
 	background:#39b9ce;
 	border:0;
@@ -187,6 +190,33 @@ p.servicio span {
 }
 .no-padding {
 	padding:0!important
+}
+
+.acordeon {
+	background:#f1f1f1;
+	margin-bottom:12px
+}
+.acordeon a {
+	background:#394955;
+	color:#fff;
+	display:block;
+	font-size:18px;
+	line-height:36px;
+	padding-left:16px
+}
+.acordeon i {
+	display: block;
+	float: right;
+	height: 36px;
+	width: 36px;
+	text-align: center;
+	line-height: 36px;
+	background: #39b9ce;
+}
+.acordeon div {
+	display:none;
+	padding:12px;
+	font-size:15px
 }
 
 /* scroll */

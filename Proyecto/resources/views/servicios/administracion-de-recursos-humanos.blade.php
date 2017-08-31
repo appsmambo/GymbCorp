@@ -1,121 +1,77 @@
 @extends("layouts/main")
 @section('contenido')
       <section class="container no-padding">
-        <ul class="bxslider">
-          <li><img src="{{url('img/slider/01.jpg')}}" alt="" /></li>
-          <li><img src="{{url('img/slider/02.jpg')}}" alt="" /></li>
-          <li><img src="{{url('img/slider/03.jpg')}}" alt="" /></li>
-          <li><img src="{{url('img/slider/04.jpg')}}" alt="" /></li>
-        </ul>
+        <h3>
+          ADMINISTRACIÓN DE RECURSOS HUMANOS
+        </h3>
       </section>
       <section class="container no-padding">
         <div class="row contenido">
-          <div class="col-md-10 col-md-offset-1">
-            <h2 class="borde text-center">
-              SERVICIOS
-              <br>
-              <small>
-                Orientados a mejorar la eficiencia y rentabilidad de nuestros clientes.
-              </small>
-            </h2>
+          <div class="col-lg-10 col-lg-offset-1">
             <div class="row">
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-1.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Asesoría y Servicio<br>Tributario
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
-                  </a>
-                </p>
+              <div class="col-md-4 col-lg-5 hidden-xs hidden-sm">
+                <img src="{{url('img/servicio-lateral.jpg')}}" class="img-responsive">
               </div>
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-2.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Asesoría y Servicio<br>Financiero
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
-                  </a>
+              <div class="col-md-8 col-lg-7">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget nunc ac lorem euismod vehicula vitae sit amet nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                 </p>
-              </div>
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-3.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Asesoría y Servicio<br>Contable
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
+                <div class="acordeon">
+                  <a href="#">
+                    PDT 621 – IGV – Renta <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   </a>
-                </p>
-              </div>
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-4.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Administración de<br>Recursos Humanos
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
+                  <div>
+                    Pellentesque feugiat dolor quis nibh commodo, ut eleifend tortor consectetur. Praesent vestibulum arcu ac nisi semper varius. Curabitur luctus eleifend elementum. Sed porta tincidunt lectus, at finibus justo.
+                  </div>
+                </div>
+                <div class="acordeon">
+                  <a href="#">
+                    PLAME <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   </a>
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-5.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Toma de<br>Inventarios
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
+                  <div>
+                    Pellentesque feugiat dolor quis nibh commodo, ut eleifend tortor consectetur. Praesent vestibulum arcu ac nisi semper varius. Curabitur luctus eleifend elementum. Sed porta tincidunt lectus, at finibus justo.
+                  </div>
+                </div>
+                <div class="acordeon">
+                  <a href="#">
+                    PDB – IGV del Exportador <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   </a>
-                </p>
-              </div>
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-6.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Consultoría<br>Empresarial
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
+                  <div>
+                    Pellentesque feugiat dolor quis nibh commodo, ut eleifend tortor consectetur. Praesent vestibulum arcu ac nisi semper varius. Curabitur luctus eleifend elementum. Sed porta tincidunt lectus, at finibus justo.
+                  </div>
+                </div>
+                <div class="acordeon">
+                  <a href="#">
+                    Drawback <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   </a>
-                </p>
-              </div>
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-7.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Seguridad y Salud<br>en el Trabajo
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
+                  <div>
+                    Pellentesque feugiat dolor quis nibh commodo, ut eleifend tortor consectetur. Praesent vestibulum arcu ac nisi semper varius. Curabitur luctus eleifend elementum. Sed porta tincidunt lectus, at finibus justo.
+                  </div>
+                </div>
+                <div class="acordeon">
+                  <a href="#">
+                    Asesoría en Fiscalizaciones SUNAT <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   </a>
-                </p>
-              </div>
-              <div class="col-md-3">
-                <p class="text-center servicio wow zoomIn" data-wow-delay=".5s">
-                  <img src="{{url('img/servicio-8.png')}}" class="img-responsive center-block" alt="">
-                  <br>
-                  Proyectos<br>Factibilidad
-                  <br>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                  <a href="#" class="leer-mas">
-                    Leer más
+                  <div>
+                    Pellentesque feugiat dolor quis nibh commodo, ut eleifend tortor consectetur. Praesent vestibulum arcu ac nisi semper varius. Curabitur luctus eleifend elementum. Sed porta tincidunt lectus, at finibus justo.
+                  </div>
+                </div>
+                <div class="acordeon">
+                  <a href="#">
+                    Fraccionamiento de deudas tributarias ante SUNAT <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   </a>
-                </p>
+                  <div>
+                    Pellentesque feugiat dolor quis nibh commodo, ut eleifend tortor consectetur. Praesent vestibulum arcu ac nisi semper varius. Curabitur luctus eleifend elementum. Sed porta tincidunt lectus, at finibus justo.
+                  </div>
+                </div>
+                <div class="acordeon">
+                  <a href="#">
+                    Devolución de Renta 4ta Categoría - Personas Naturales <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  </a>
+                  <div>
+                    Pellentesque feugiat dolor quis nibh commodo, ut eleifend tortor consectetur. Praesent vestibulum arcu ac nisi semper varius. Curabitur luctus eleifend elementum. Sed porta tincidunt lectus, at finibus justo.
+                  </div>
+                </div>
               </div>
             </div>
           </div>

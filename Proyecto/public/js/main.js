@@ -5,6 +5,10 @@ $(function() {
 		auto:true,
 		pause:5500
 	});
+	$('.acordeon a').click(function() {
+		$(this).next().slideToggle();
+		return false;
+	});
 })
 $(window).on('load', function() {
 	$('#status').fadeOut();
