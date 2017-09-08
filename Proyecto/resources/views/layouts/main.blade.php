@@ -19,6 +19,14 @@
     <![endif]-->
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=2053501288214327";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div id="preloader">
       <div id="status">
         <img src="{{url('img/preloader.gif')}}" alt="" class="img-responsive">
@@ -90,55 +98,8 @@
                     <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
                   </p>
                 </div>
-                <div class="col-md-3">
-                  <h4>
-                    CONTÁCTANOS
-                  </h4>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting.
-                  </p>
-                  <form>
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Ingresa tu nombre">
-                    </div>
-                    <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Ingresa tu email">
-                    </div>
-                    <input class="btn btn-info sdleer-mas" type="submit" value="Enviar">
-                  </form>
-                </div>
-                <div class="col-md-3">
-                  <h4>
-                    ÚLTIMAS NOTICAS
-                  </h4>
-                  <div class="row">
-                    <div class="col-xs-5">
-                      <img src="http://lorempixel.com/120/120/people/" class="img-responsive">
-                    </div>
-                    <div class="col-xs-7">
-                      <p>
-                        Lorem Ipsum is simply dummy text of the.
-                        <br>
-                        <a href="#">
-                          Enlace web.
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-5">
-                      <img src="http://lorempixel.com/120/120/people/" class="img-responsive">
-                    </div>
-                    <div class="col-xs-7">
-                      <p>
-                        Lorem Ipsum is simply dummy text of the.
-                        <br>
-                        <a href="#">
-                          Enlace web.
-                        </a>
-                      </p>
-                    </div>
-                  </div>
+                <div class="col-md-6">
+                  <div class="fb-page" data-href="https://www.facebook.com/gymbcorporacion/" data-tabs="timeline" data-width="500" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/gymbcorporacion/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gymbcorporacion/">GYMB CORP Asesores Empresariales</a></blockquote></div>
                 </div>
                 <div class="col-md-3">
                   <h4>

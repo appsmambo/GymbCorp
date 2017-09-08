@@ -3,6 +3,14 @@
 Route::get('/', array('as' => 'inicio', 'uses' => 'HomeController@getInicio'));
 Route::get('/servicios', array('as' => 'servicios', 'uses' => 'HomeController@getServicios'));
 
+Route::get('nosotros', function () {
+    return view('nosotros');
+});
+
+Route::get('contacto', function () {
+    return view('contacto');
+});
+
 Route::get('servicios/asesoria-y-servicio-tributario', function () {
     return view('servicios/asesoria-y-servicio-tributario');
 });
